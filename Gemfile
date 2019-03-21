@@ -2,8 +2,8 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
-gem 'activerecord', '4.2.5'
-gem 'sinatra-activerecord'
+gem 'activerecord', '~> 4.2', '>= 4.2.6', :require => 'active_record'
+gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'thin'
 gem 'require_all'
